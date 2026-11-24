@@ -1,9 +1,103 @@
-<html>
-    <head>
-        <title>Primeira Página com Bootstrap</title>
-    </head>
-    <body>
-        <h1>Primeira Página usando HTML com Bootstrap</h1>
-        <p>Bootstrap é um framework front-end que ajuda a criar sites e aplicações web com design responsivo, moderno e prático, usando classes pré-definidas para organizar o layout, estilizar elementos e adicionar componentes como botões, menus, formulários e cards, além de facilitar a adaptação para diferentes tamanhos de tela, como celular, tablet e desktop.</p>
-    </body>
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mundo do Rock | Início</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top rock-nav">
+        <div class="container"><a class="navbar-brand" href="index.html"><span class="bolt">ϟ</span> ROCK</a><button
+                class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bandas.html">Bandas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="estilos.html">Estilos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="curiosidades.html">Curiosidades</a></li>
+                </ul><a class="btn btn-purple ms-lg-4 mt-3 mt-lg-0" href="bandas.html">Rock é vida!</a>
+            </div>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="container hero-inner">
+            <div class="hero-copy">
+                <p class="eyebrow">ATITUDE • LIBERDADE • MÚSICA</p>
+                <h1>O MUNDO DO<br><span>ROCK</span></h1>
+                <p class="lead">Uma história de atitude, liberdade<br class="d-none d-md-block"> e muita música.</p><a
+                    class="btn btn-outline-purple" href="historia.html">Explore mais <span>⌄</span></a>
+            </div>
+        </div>
+        <div class="hero-wave"></div>
+    </header>
+    <main class="container py-5">
+        <section class="intro-row row align-items-center g-4 mb-5">
+            <div class="col-lg-5"><img class="img-fluid rounded-4 concert-img" src="assets/rock-legends.jpg"
+                    alt="Grupo de músicos de rock em fotografia histórica"></div>
+            <div class="col-lg-7">
+                <p class="eyebrow">DO PASSADO AO PRESENTE</p>
+                <h2>A HISTÓRIA DO ROCK</h2>
+                <div class="purple-line"></div>
+                <p>O rock surgiu nos anos 1950, nos Estados Unidos, misturando influências do rhythm and blues, blues e
+                    country. Com guitarras marcantes e muita personalidade, conquistou o mundo e se transformou em um
+                    dos gêneros mais influentes da música.</p><a class="btn btn-outline-purple"
+                    href="historia.html">Saiba mais</a>
+            </div>
+        </section>
+        <section class="mb-5">
+            <div class="section-heading">
+                <h2>BANDAS FAMOSAS</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-6 col-lg-3"><a class="band-card" href="bandas.html"><img src="assets/kiss-live.jpg"
+                            alt="Kiss"><span>KISS</span></a></div>
+                <div class="col-6 col-lg-3"><a class="band-card" href="bandas.html"><img src="assets/nirvana-band.jpg"
+                            alt="Nirvana"><span>NIRVANA</span></a></div>
+                <div class="col-6 col-lg-3"><a class="band-card" href="bandas.html"><img src="assets/guns-n-roses.jpg"
+                            alt="Guns N' Roses"><span>GUNS N' ROSES</span></a></div>
+                <div class="col-6 col-lg-3"><a class="band-card" href="bandas.html"><img src="assets/kiss-dynasty.jpg"
+                            alt="Kiss com maquiagem clássica"><span>ROCK CLÁSSICO</span></a></div>
+            </div>
+        </section>
+        <section class="mb-5">
+            <div class="section-heading">
+                <h2>ESTILOS DO ROCK</h2>
+            </div>
+            <div class="row g-3 text-center">
+                <div class="col-6 col-md-4 col-lg-2"><a class="style-chip" href="estilos.html"><b>ϟ</b>Rock clássico</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2"><a class="style-chip" href="estilos.html"><b>♬</b>Hard rock</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2"><a class="style-chip" href="estilos.html"><b>✦</b>Punk rock</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2"><a class="style-chip" href="estilos.html"><b>⚡</b>Heavy metal</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2"><a class="style-chip" href="estilos.html"><b>★</b>Grunge</a></div>
+                <div class="col-6 col-md-4 col-lg-2"><a class="style-chip" href="estilos.html"><b>♫</b>Alternativo</a>
+                </div>
+            </div>
+        </section>
+        <div class="never-die"><span>♫</span>
+            <div>
+                <h2>O ROCK NUNCA MORRE!</h2>
+                <p>Mais que um gênero, um estilo de vida.</p>
+            </div><strong>✕</strong>
+        </div>
+    </main>
+    <footer>
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3"><a class="navbar-brand"
+                href="index.html"><span class="bolt">ϟ</span> ROCK</a>
+            <p class="mb-0">Obrigado por visitar nosso site! <span class="purple">♥</span></p><span
+                class="social">◉　▶　◎</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
